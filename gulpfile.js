@@ -14,6 +14,6 @@ gulp.task('concat-css', function() {
     .pipe(gulp.dest('assets/css'));
 });
 
-gulp.task('default', ['stylus'], function() {
+gulp.task('default', ['stylus', 'concat-css'], function() {
   gulp.watch('source/stylus/*.styl', ['stylus']);
 });
