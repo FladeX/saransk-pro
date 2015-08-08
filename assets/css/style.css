@@ -160,6 +160,79 @@ strong {
   margin: 0 auto -97px;
 }
 
+.b-main__wrapper {
+  background: #fff;
+  margin: 0 auto;
+  width: 1060px;
+}
+
+.b-header {
+  padding: 20px 30px;
+}
+
+.b-header__brand {
+  float: left;
+  width: 40%;
+}
+
+.b-header__brand-link {
+  text-decoration: none;
+}
+
+.b-header__brand-link:hover {
+  text-decoration: none;
+}
+
+.b-header__brand-logo {
+  float: left;
+  margin-right: 10px;
+}
+
+.b-header__brand-name {
+  color: #e35828;
+  font-size: 31px;
+  margin-top: 14px;
+  text-transform: uppercase;
+}
+
+.b-header__brand-city {
+  color: #191919;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.b-header__brand-slogan {
+  color: #191919;
+  font-size: 15px;
+}
+
+.b-header__contacts {
+  background: url("../images/phone.png") no-repeat;
+  float: right;
+  margin-top: 14px;
+  padding-left: 40px;
+  text-align: right;
+  width: 20%;
+}
+
+.b-header__contacts-incity {
+  color: #6a6a6a;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.b-header__contacts-incity-phone {
+  color: #e35828;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.b-header__contacts-8800 {
+  color: #191919;
+  font-size: 23px;
+  font-weight: bold;
+}
+
 .b-footer {
   background: #759345;
   color: #fff;
