@@ -85,6 +85,39 @@ strong {
   font-size: 23px;
   font-weight: bold;
 }
+.b-navi {
+  padding: 20px 30px;
+}
+.b-navi__order {
+  background: #88b442;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  float: right;
+  font-size: 17px;
+  line-height: 47px;
+  width: 25%;
+}
+.b-navi__menu {
+  background: #479fcd;
+  width: 74%;
+}
+.b-navi__menu-link {
+  color: #fff;
+  display: block;
+  float: left;
+  font-size: 17px;
+  line-height: 47px;
+  padding: 0 20px;
+  text-decoration: none;
+}
+.b-navi__menu-link_state_active {
+  background: #317ea6;
+}
+.b-navi__menu-link:hover {
+  background: #317ea6;
+  text-decoration: none;
+}
 .b-footer {
   background: #759345;
   color: #fff;
