@@ -1,3 +1,5 @@
+$footer-height = 97px
+
 html
 body
 .b-page
@@ -19,15 +21,16 @@ strong
   zoom 1
 
 .b-main
+  background #f0f0f0
   min-height 100%
   height auto !important
   height 100%
-  margin 0 auto -97px
+  margin 0 auto - $footer-height
 
 .b-footer
   background #759345
   color #fff
-  height 97px
+  height $footer-height
   overflow-y hidden
   &__wrapper
     margin 0 auto
