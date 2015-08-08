@@ -86,6 +86,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
 article,
 aside,
 details,
@@ -99,17 +100,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:after,
 q:after,
 blockquote:before,
@@ -117,8 +122,103 @@ q:before {
   content: '';
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+html,
+body,
+.b-page {
+  height: 100%;
+}
 
+b,
+strong {
+  font-weight: bold;
+}
+
+.i-clearfix:before,
+.i-clearfix:after {
+  content: '';
+  display: table;
+}
+
+.i-clearfix:after {
+  clear: both;
+}
+
+.i-clearfix {
+  zoom: 1;
+}
+
+.b-main {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -97px;
+}
+
+.b-footer {
+  background: #759345;
+  color: #fff;
+  height: 97px;
+  overflow-y: hidden;
+}
+
+.b-footer__wrapper {
+  margin: 0 auto;
+  padding: 30px;
+  width: 1060px;
+}
+
+.b-footer__copyright {
+  background: url("../images/logo_footer.png") no-repeat;
+  box-sizing: border-box;
+  float: left;
+  padding: 10px 0 15px 55px;
+  width: 20%;
+}
+
+.b-footer__copyright-title {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.b-footer__copyright-description {
+  font-size: 11px;
+}
+
+.b-footer__menu {
+  float: left;
+  padding-top: 10px;
+  width: 60%;
+}
+
+.b-footer__menu-list {
+  font-size: 14px;
+  margin-left: 120px;
+}
+
+.b-footer__menu-item {
+  float: left;
+  padding: 0 15px;
+}
+
+.b-footer__menu-link {
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  text-decoration: none;
+}
+
+.b-footer__menu-link:hover {
+  border: none;
+  text-decoration: none;
+}
+
+.b-footer__counters {
+  float: right;
+  padding-top: 5px;
+  text-align: right;
+  width: 20%;
+}

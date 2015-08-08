@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var stylus = require('gulp-stylus');
-var concat = require('gulp-concat');
+var concatCss = require('gulp-concat-css');
 
 gulp.task('stylus', function() {
   gulp.src('source/stylus/*.styl')
@@ -9,11 +9,12 @@ gulp.task('stylus', function() {
 });
 
 gulp.task('concat-css', function() {
-  gulp.src(['source/css/reset.css', 'source/css/main.css'])
-    .pipe(concat('style.css'))
+  return gulp.src('source/css/*.css')
+    .pipe(concatCss('style.css'))
     .pipe(gulp.dest('assets/css'));
 });
 
 gulp.task('default', ['stylus', 'concat-css'], function() {
   gulp.watch('source/stylus/*.styl', ['stylus']);
+  gulp.watch('source/css/*.css', ['concat-css']);
 });
