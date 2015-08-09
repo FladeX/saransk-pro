@@ -272,6 +272,74 @@ strong {
   text-decoration: none;
 }
 
+.b-services {
+  padding: 0 30px;
+}
+
+.b-services__title {
+  border-bottom: 1px solid #f0ae86;
+  color: #191919;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.b-services__title-text {
+  background: #fff;
+  display: inline-block;
+  padding-right: 10px;
+  position: relative;
+  top: 8px;
+}
+
+.b-services__list {
+  text-align: center;
+}
+
+.b-services__item {
+  display: inline-block;
+  height: 50px;
+  padding-top: 105px;
+  text-align: center;
+  width: 228px;
+}
+
+.b-services__item_bg_01 {
+  background: url("../images/service_01.png") no-repeat 50% 15px;
+}
+
+.b-services__item_bg_02 {
+  background: url("../images/service_02.png") no-repeat 50% 10px;
+}
+
+.b-services__item_bg_03 {
+  background: url("../images/service_03.png") no-repeat 50% 13px;
+}
+
+.b-services__item_bg_04 {
+  background: url("../images/service_04.png") no-repeat 50% 12px;
+}
+
+.b-services__item_bg_05 {
+  background: url("../images/service_05.png") no-repeat 50% 0;
+}
+
+.b-services__link {
+  color: #317ea6;
+  font-size: 15px;
+}
+
+.b-services__link:hover {
+  color: #e35828;
+  text-decoration: none;
+}
+
+.b-services__text {
+  color: #191919;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
 .b-footer {
   background: #759345;
   color: #fff;
