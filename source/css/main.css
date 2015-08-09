@@ -30,6 +30,9 @@ strong {
   margin: 0 auto;
   width: 1060px;
 }
+.b-main__footer {
+  height: 97px;
+}
 .b-header {
   padding: 20px 30px;
 }
