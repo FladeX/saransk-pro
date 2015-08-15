@@ -49,14 +49,14 @@ strong {
 }
 .b-header__brand-logo {
   float: left;
-  margin-right: 10px;
+  margin-right: 11px;
 }
 .b-header__brand-name {
   color: #e35828;
   font-family: 'SegoeUI';
   font-size: 31px;
   font-weight: 700;
-  margin-top: 14px;
+  margin-top: 7px;
   text-transform: uppercase;
 }
 .b-header__brand-city {
@@ -64,23 +64,30 @@ strong {
   font-size: 36px;
   font-weight: 900;
 }
+.b-header__brand-domain {
+  left: -5px;
+  position: relative;
+  top: 0;
+}
 .b-header__brand-slogan {
   color: #191919;
   font-family: 'SegoeUI';
   font-size: 15px;
+  margin-top: 7px;
 }
 .b-header__contacts {
-  background: url("../images/phone.png") no-repeat;
+  background: url("../images/phone.png") no-repeat 0 12px;
   float: right;
-  margin-top: 14px;
-  padding-left: 40px;
+  margin-top: 7px;
+  padding-bottom: 10px;
+  padding-left: 21px;
   text-align: right;
-  width: 21%;
+  width: 20%;
 }
 .b-header__contacts-incity {
   color: #6a6a6a;
   font-family: Cuprum;
-  font-size: 11px;
+  font-size: 10px;
   text-transform: uppercase;
 }
 .b-header__contacts-incity-phone {
@@ -88,15 +95,18 @@ strong {
   font-size: 23px;
   font-family: 'SegoeUI';
   font-weight: 900;
+  position: relative;
+  top: 1px;
 }
 .b-header__contacts-8800 {
   color: #191919;
   font-family: 'SegoeUI';
   font-size: 23px;
   font-weight: 900;
+  margin-top: 8px;
 }
 .b-navi {
-  padding: 20px 30px;
+  padding: 4px 30px 0;
 }
 .b-navi__order {
   background: #88b442;
@@ -107,12 +117,14 @@ strong {
   font-family: 'SegoeUI';
   font-size: 17px;
   font-weight: 700;
-  line-height: 47px;
-  width: 25%;
+  line-height: 46px;
+  padding-bottom: 0;
+  padding-top: 0;
+  width: 22%;
 }
 .b-navi__menu {
   background: #479fcd;
-  width: 74%;
+  width: 77%;
 }
 .b-navi__menu-link {
   color: #fff;
@@ -120,7 +132,8 @@ strong {
   float: left;
   font-family: 'SegoeUI';
   font-size: 17px;
-  line-height: 47px;
+  font-weight: 200;
+  line-height: 46px;
   padding: 0 20px;
   text-decoration: none;
 }
@@ -132,7 +145,7 @@ strong {
   text-decoration: none;
 }
 .b-services {
-  padding: 0 30px;
+  padding: 30px 30px 0;
 }
 .b-services__title {
   border-bottom: 1px solid #f0ae86;
@@ -140,44 +153,47 @@ strong {
   font-family: 'SegoeUI';
   font-size: 25px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 .b-services__title-text {
   background: #fff;
   display: inline-block;
   padding-right: 10px;
   position: relative;
-  top: 5px;
+  top: 4px;
 }
 .b-services__list {
+  margin-bottom: 12px;
   text-align: center;
 }
 .b-services__item {
   display: inline-block;
   height: 50px;
-  padding-top: 105px;
+  margin-bottom: 7px;
+  padding-top: 120px;
   text-align: center;
-  width: 228px;
+  width: 195px;
 }
 .b-services__item_bg_01 {
-  background: url("../images/service_01.png") no-repeat 50% 15px;
+  background: url("../images/service_01.png") no-repeat 50% 27px;
 }
 .b-services__item_bg_02 {
-  background: url("../images/service_02.png") no-repeat 50% 10px;
+  background: url("../images/service_02.png") no-repeat 50% 22px;
 }
 .b-services__item_bg_03 {
-  background: url("../images/service_03.png") no-repeat 50% 13px;
+  background: url("../images/service_03.png") no-repeat 50% 30px;
 }
 .b-services__item_bg_04 {
-  background: url("../images/service_04.png") no-repeat 50% 12px;
+  background: url("../images/service_04.png") no-repeat 50% 29px;
 }
 .b-services__item_bg_05 {
-  background: url("../images/service_05.png") no-repeat 50% 0;
+  background: url("../images/service_05.png") no-repeat 50% 15px;
 }
 .b-services__link {
   color: #317ea6;
   font-family: 'SegoeUI';
   font-size: 15px;
+  line-height: 18px;
 }
 .b-services__link:hover {
   color: #e35828;
@@ -187,10 +203,11 @@ strong {
   color: #191919;
   font-family: 'SegoeUI';
   font-size: 14px;
-  margin-bottom: 20px;
+  line-height: 17px;
+  margin-bottom: 17px;
 }
 .b-reviews {
-  padding: 0 30px;
+  padding: 22px 30px 3px;
 }
 .b-reviews__title {
   border-bottom: 1px solid #82c7ec;
@@ -198,14 +215,17 @@ strong {
   font-family: 'SegoeUI';
   font-size: 25px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 .b-reviews__title-text {
   background: #fff;
   display: inline-block;
   padding-right: 10px;
   position: relative;
-  top: 5px;
+  top: 3px;
+}
+.b-reviews__list {
+  margin-top: 34px;
 }
 .b-reviews__item {
   display: inline-block;
@@ -226,19 +246,20 @@ strong {
   color: #505050;
   font-family: 'SegoeUI';
   font-size: 14px;
+  margin-top: 3px;
 }
 .b-reviews__item-content {
   background: #f2ebbe;
   color: #55523d;
   font-family: 'SegoeUI';
   font-size: 13px;
-  line-height: 16px;
+  line-height: 17px;
   margin-top: 5px;
-  min-height: 124px;
-  padding: 10px;
+  min-height: 138px;
+  padding: 11px 7px 12px 10px;
 }
 .b-reviews__item-text {
-  margin-top: 20px;
+  margin-top: 17px;
 }
 .b-reviews__item-text:first-child {
   margin-top: 0;
@@ -256,7 +277,7 @@ strong {
   text-decoration: none;
 }
 .b-news {
-  padding: 0 30px;
+  padding: 20px 30px 18px;
 }
 .b-news__title {
   border-bottom: 1px solid #99cd47;
@@ -264,27 +285,35 @@ strong {
   font-family: 'SegoeUI';
   font-size: 25px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 .b-news__title-text {
   background: #fff;
   display: inline-block;
   padding-right: 10px;
   position: relative;
-  top: 5px;
+  top: 3px;
+}
+.b-news__list {
+  margin-top: 33px;
 }
 .b-news__item {
   display: inline-block;
   font-family: 'SegoeUI';
-  margin-left: 30px;
+  margin-left: 35px;
   vertical-align: top;
-  width: 310px;
+  width: 320px;
 }
 .b-news__item:first-child {
   margin-left: 0;
 }
+.b-news__item:last-child {
+  margin-left: 20px;
+  width: 295px;
+}
 .b-news__item-date-column {
   float: left;
+  padding-top: 3px;
   width: 40px;
 }
 .b-news__item-date {
@@ -292,7 +321,8 @@ strong {
   color: #fff;
   font-size: 17px;
   font-weight: 900;
-  padding: 5px 0;
+  line-height: 14px;
+  padding: 5px 0 6px;
   text-align: center;
 }
 .b-news__item-date-month {
@@ -306,6 +336,7 @@ strong {
   color: #317ea6;
   font-size: 17px;
   font-weight: 700;
+  line-height: 19px;
 }
 .b-news__item-link:hover {
   color: #e35828;
@@ -314,8 +345,8 @@ strong {
 .b-news__item-text {
   color: #191919;
   font-size: 13px;
-  line-height: 15px;
-  margin-top: 6px;
+  line-height: 17px;
+  margin-top: 7px;
 }
 .b-footer {
   background: #759345;
@@ -325,43 +356,49 @@ strong {
 }
 .b-footer__wrapper {
   margin: 0 auto;
-  padding: 30px;
-  width: 1060px;
+  padding: 25px 25px 35px;
+  width: 1010px;
 }
 .b-footer__copyright {
-  background: url("../images/logo_footer.png") no-repeat;
+  background: url("../images/logo_footer.png") no-repeat 6px 0;
   box-sizing: border-box;
   float: left;
   font-family: 'SegoeUI';
-  padding: 10px 0 15px 55px;
-  width: 21%;
+  padding: 6px 0 15px 59px;
+  width: 24%;
 }
 .b-footer__copyright-title {
   font-size: 13px;
   text-transform: uppercase;
 }
 .b-footer__copyright-title-city {
+  display: inline-block;
   font-weight: 900;
+  margin-left: 6px;
 }
 .b-footer__copyright-title-domain {
+  display: inline-block;
   font-weight: 700;
+  margin-left: 5px;
 }
 .b-footer__copyright-description {
   font-size: 11px;
+  margin-left: 1px;
+  margin-top: 6px;
 }
 .b-footer__menu {
   float: left;
   font-family: 'SegoeUI';
-  padding-top: 10px;
-  width: 60%;
+  padding-top: 12px;
+  width: 55%;
 }
 .b-footer__menu-list {
   font-size: 14px;
-  margin-left: 120px;
+  margin-left: 94px;
 }
 .b-footer__menu-item {
   float: left;
-  padding: 0 15px;
+  padding: 0 14px;
 }
 .b-footer__menu-link {
   border-bottom: 1px solid #fff;
@@ -374,7 +411,10 @@ strong {
 }
 .b-footer__counters {
   float: right;
-  padding-top: 5px;
+  padding-top: 6px;
   text-align: right;
   width: 19%;
+}
+.b-footer__counters-link {
+  margin-right: 4px;
 }
