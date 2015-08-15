@@ -168,6 +168,7 @@ strong {
 
 .b-main__footer {
   height: 97px;
+  margin-top: 20px;
 }
 
 .b-header {
@@ -416,6 +417,77 @@ strong {
 
 .b-reviews__more-link:hover {
   text-decoration: none;
+}
+
+.b-news {
+  padding: 0 30px;
+}
+
+.b-news__title {
+  border-bottom: 1px solid #99cd47;
+  color: #191919;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.b-news__title-text {
+  background: #fff;
+  display: inline-block;
+  padding-right: 10px;
+  position: relative;
+  top: 8px;
+}
+
+.b-news__item {
+  display: inline-block;
+  margin-left: 30px;
+  width: 310px;
+}
+
+.b-news__item:first-child {
+  margin-left: 0;
+}
+
+.b-news__item-date-column {
+  float: left;
+  width: 40px;
+}
+
+.b-news__item-date {
+  background: #e35828;
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.b-news__item-date-month {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.b-news__item-content {
+  margin-left: 50px;
+}
+
+.b-news__item-link {
+  color: #317ea6;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.b-news__item-link:hover {
+  color: #e35828;
+  text-decoration: none;
+}
+
+.b-news__item-text {
+  color: #191919;
+  font-size: 13px;
+  line-height: 15px;
+  margin-top: 6px;
 }
 
 .b-footer {
