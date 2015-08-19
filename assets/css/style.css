@@ -587,6 +587,35 @@ strong {
   margin-top: 7px;
 }
 
+.b-service {
+  padding: 20px 30px 18px;
+}
+
+.b-service__title {
+  border-bottom: 1px solid #f0ae86;
+  color: #191919;
+  font-family: 'SegoeUI';
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.b-service__title-text {
+  background: #fff;
+  display: inline-block;
+  padding-right: 10px;
+  position: relative;
+  top: 3px;
+}
+
+.b-service__text {
+  color: #191919;
+  font-family: 'SegoeUI';
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 17px;
+}
+
 .b-footer {
   background: #759345;
   color: #fff;
