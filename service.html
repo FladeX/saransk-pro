@@ -41,6 +41,57 @@
           <span class="b-service__title-text">Грузовые перевозки Саранск</span>
         </h1>
         <p class="b-service__text">Для перевозки крупногабаритных вещей нужна специализированная машина. Наш сервис поможет вам с&nbsp;этим, предоставив грузовую газель с&nbsp;водителем. При необходимости вы&nbsp;также можете заказать услуги грузчиков.</p>
+        <div id="slider1_container" class="b-slider">
+          <!-- Slides Container -->
+          <div u="slides" class="b-slider__container">
+            <div>
+              <img src="assets/images/slide_01.png" height="323" width="487" />
+              <div class="b-slider__item-details">
+                <h4 class="b-slider__item-details-title">Газель Next</h4>
+                <h6 class="b-slider__item-details-subtitle">Технические характеристики</h6>
+                <dl class="b-slider__item-details-list i-clearfix">
+                  <dt class="b-slider__item-details-list-key">Максимальный вес:</dt>
+                  <dd class="b-slider__item-details-list-value">2 тонны</dd>
+                  <dt class="b-slider__item-details-list-key">Габариты машины:</dt>
+                  <dd class="b-slider__item-details-list-value">
+                    Высота: 2 метра<br />
+                    Длина: 6 метров<br />
+                    Ширина: 2 метра
+                  </dd>
+                </dl>
+                <p class="b-slider__item-details-price">Стоимость:
+                  <span class="b-slider__item-details-sum">1399 р. / 2 часа</span>
+                </p>
+              </div>
+            </div>
+            <div>
+              <img src="assets/images/slide_01.png" height="323" width="487" />
+              <div class="b-slider__item-details">
+                <h4 class="b-slider__item-details-title">Газель Next</h4>
+                <h6 class="b-slider__item-details-subtitle">Технические характеристики</h6>
+                <dl class="b-slider__item-details-list i-clearfix">
+                  <dt class="b-slider__item-details-list-key">Максимальный вес:</dt>
+                  <dd class="b-slider__item-details-list-value">2 тонны</dd>
+                  <dt class="b-slider__item-details-list-key">Габариты машины:</dt>
+                  <dd class="b-slider__item-details-list-value">
+                    Высота: 2 метра<br />
+                    Длина: 6 метров<br />
+                    Ширина: 2 метра
+                  </dd>
+                </dl>
+                <p class="b-slider__item-details-price">Стоимость:
+                  <span class="b-slider__item-details-sum">1399 р. / 2 часа</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Arrow Navigator Skin Begin -->
+          <!-- Arrow Left -->
+          <span u="arrowleft" class="b-slider__arrow b-slider__arrow_mode_left"></span>
+          <!-- Arrow Right -->
+          <span u="arrowright" class="b-slider__arrow b-slider__arrow_mode_right"></span>
+          <!-- Arrow Navigator Skin End -->
+        </div>
       </div>
       <div class="b-main__footer"></div>
     </div>
@@ -81,5 +132,18 @@
     </div>
   </div>
 </div>
+<script src="assets/js/jquery-1.11.3.min.js"></script>
+<script src="assets/js/jssor.slider.mini.js"></script>
+<script>
+  $(document).ready(function() {
+    var options = {
+      $ArrowNavigatorOptions: {
+        $Class: $JssorArrowNavigator$,
+        $ChanceToShow: 2
+      }
+    };
+    var jssor_slider1 = new $JssorSlider$('slider1_container', options);
+  });
+</script>
 </body>
 </html>

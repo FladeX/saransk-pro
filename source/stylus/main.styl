@@ -316,6 +316,67 @@ strong
     line-height 17px
     margin-bottom 17px
 
+.b-slider
+  height 300px
+  left 0
+  position relative
+  top 0
+  width 100%
+  &__container
+    cursor move
+    height 300px
+    left 5%
+    margin 0 auto
+    overflow hidden
+    position absolute
+    top 0
+    width 90%
+  &__arrow
+    cursor pointer
+    display block
+    height 99px
+    overflow hidden
+    position absolute
+    width 25px
+    &_mode_left
+      background url('../images/slider_arrow_left.png') no-repeat
+      left 8px
+      top 87px
+    &_mode_right
+      background url('../images/slider_arrow_right.png') no-repeat
+      top 87px
+      right 8px
+  &__item-details
+    position absolute
+    right 20px
+    top 30px
+    &-title
+      color #317ea6
+      font-family 'SegoeUI'
+      font-size 40px
+      font-weight 900
+    &-subtitle
+      color #191919
+      font-family 'SegoeUI'
+      font-size 15px
+      font-weight 900
+    &-list
+      font-family 'SegoeUI'
+      &-key
+        color #6c6c6c
+        float left
+      &-value
+        color #191919
+        margin-left 147px
+    &-price
+      color #000
+      font-family 'SegoeUI'
+      font-size 15px
+      font-weight 900
+    &-sum
+      color #e91717
+      font-size 22px
+
 .b-footer
   background #759345
   color #fff
