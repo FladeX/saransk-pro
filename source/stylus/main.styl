@@ -317,14 +317,14 @@ strong
     margin-bottom 17px
 
 .b-slider
-  height 300px
+  height 340px
   left 0
   position relative
   top 0
   width 100%
   &__container
     cursor move
-    height 300px
+    height 340px
     left 5%
     margin 0 auto
     overflow hidden
@@ -346,6 +346,21 @@ strong
       background url('../images/slider_arrow_right.png') no-repeat
       top 87px
       right 8px
+  &__bullet
+    bottom 0
+    position absolute
+    right 6px
+    & div
+    & div:hover
+    & .av
+      background url('../images/slider_bullet.png') no-repeat
+      cursor pointer
+      height 21px
+      overflow hidden
+      position absolute
+      width 21px
+    & .av
+      background url('../images/slider_bullet_active.png') no-repeat
   &__item-details
     position absolute
     right 20px

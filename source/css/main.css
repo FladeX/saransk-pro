@@ -374,7 +374,7 @@ strong {
   margin-bottom: 17px;
 }
 .b-slider {
-  height: 300px;
+  height: 340px;
   left: 0;
   position: relative;
   top: 0;
@@ -382,7 +382,7 @@ strong {
 }
 .b-slider__container {
   cursor: move;
-  height: 300px;
+  height: 340px;
   left: 5%;
   margin: 0 auto;
   overflow: hidden;
@@ -407,6 +407,24 @@ strong {
   background: url("../images/slider_arrow_right.png") no-repeat;
   top: 87px;
   right: 8px;
+}
+.b-slider__bullet {
+  bottom: 0;
+  position: absolute;
+  right: 6px;
+}
+.b-slider__bullet div,
+.b-slider__bullet div:hover,
+.b-slider__bullet .av {
+  background: url("../images/slider_bullet.png") no-repeat;
+  cursor: pointer;
+  height: 21px;
+  overflow: hidden;
+  position: absolute;
+  width: 21px;
+}
+.b-slider__bullet .av {
+  background: url("../images/slider_bullet_active.png") no-repeat;
 }
 .b-slider__item-details {
   position: absolute;
