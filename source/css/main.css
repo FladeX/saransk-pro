@@ -18,6 +18,35 @@ strong {
 .i-clearfix {
   zoom: 1;
 }
+.b-subtitle {
+  color: #191919;
+  font-family: 'SegoeUI';
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.b-olist {
+  color: #191919;
+  font-family: 'SegoeUI';
+  font-size: 14px;
+  list-style-position: inside;
+  list-style-type: decimal;
+  margin-bottom: 5px;
+}
+.b-olist__item {
+  margin-bottom: 3px;
+}
+.b-ulist {
+  color: #191919;
+  font-family: 'SegoeUI';
+  font-size: 14px;
+  list-style-position: inside;
+  list-style-image: url("../images/bullet_green.png");
+  margin-bottom: 5px;
+}
+.b-ulist__item {
+  margin-bottom: 3px;
+}
 .b-main {
   background: #f0f0f0;
   min-height: 100%;
@@ -487,7 +516,7 @@ strong {
 }
 .b-order {
   background: #479fcd;
-  margin: 0 auto;
+  margin: 0 auto 40px;
   padding: 23px;
   width: 604px;
 }
