@@ -121,6 +121,28 @@
           </div>
           <!--#endregion Bullet Navigator Skin End -->
         </div>
+        <form class="b-order" name="order" method="post">
+          <div class="b-order__select">
+            <select name="service">
+              <option>Вид услуги</option>
+            </select>
+          </div>
+          <div class="b-order__select">
+            <select name="service_additional">
+              <option>Дополнительно</option>
+            </select>
+          </div>
+          <label class="b-order__field">
+            <input class="b-order__input" type="text" placeholder="Имя" />
+          </label>
+          <label class="b-order__field">
+            <input class="b-order__input" type="text" placeholder="Телефон" />
+          </label>
+          <label class="b-order__field">
+            <input class="b-order__input" type="date" placeholder="Дата" />
+          </label>
+          <button class="b-order__button" type="submit">Заказать</button>
+        </form>
       </div>
       <div class="b-main__footer"></div>
     </div>

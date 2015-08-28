@@ -376,6 +376,7 @@ strong {
 .b-slider {
   height: 360px;
   left: 0;
+  margin-bottom: 40px;
   position: relative;
   top: 0;
   width: 100%;
@@ -482,6 +483,72 @@ strong {
   line-height: 37px;
   margin-left: 38px;
   margin-top: 21px;
+  padding: 0 41px;
+}
+.b-order {
+  background: #479fcd;
+  margin: 0 auto;
+  padding: 23px;
+  width: 604px;
+}
+.b-order__select {
+  background: #fff url("../images/arrow_down.png") no-repeat 95% 50%;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  width: 287px;
+}
+.b-order__select:first-child {
+  margin-left: 0;
+}
+.b-order__select select {
+  background: transparent;
+  border: none;
+  color: #373737;
+  cursor: pointer;
+  font-family: 'SegoeUI';
+  font-size: 16px;
+  width: 120%;
+}
+.b-order__field {
+  display: inline-block;
+  margin-left: 20px;
+  width: 185px;
+}
+.b-order__field:first-of-type {
+  margin-left: 0;
+}
+.b-order__input {
+  border: none;
+  border-radius: 3px;
+  box-sizing: padding-box;
+  color: #373737;
+  font-family: 'SegoeUI';
+  font-size: 16px;
+  height: 35px;
+  line-height: 35px;
+  padding: 0 11px;
+  width: 185px;
+}
+.b-order__button {
+  background: #e35828;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-family: 'SegoeUI';
+  font-size: 21px;
+  font-weight: 900;
+  height: 37px;
+  line-height: 37px;
+  margin: 26px auto 0;
   padding: 0 41px;
 }
 .b-footer {
