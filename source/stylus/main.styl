@@ -1,3 +1,16 @@
+// color
+$color-primary = #191919
+$color-primary-invert = #fff
+$color-additional1 = #479fcd
+$color-additional1-light = #b3dcf1
+$color-additional1-highlight = #eaf8ff
+$color-additional2 = #88b442
+$color-additional2-highlight = #618626
+$color-additional3 = #e35828
+$color-additional4 = #317ea6
+// font-weight, in case there are bold and semi-bold fonts
+$font-bold = 900
+$font-semibold = 700
 $footer-height = 97px
 
 html
@@ -21,67 +34,70 @@ strong
   zoom 1
 
 .b-subtitle
-  color #191919
+  color $color-primary
   font-family 'SegoeUI'
   font-size 20px
-  font-weight 700
+  font-weight $font-semibold
   margin-bottom 18px
 
 .b-olist
-  color #191919
+  color $color-primary
   font-family 'SegoeUI'
   font-size 14px
+  line-height 18px
   list-style-position inside
   list-style-type decimal
-  margin-bottom 5px
+  margin-bottom 10px
   &__item
     margin-bottom 3px
 
 .b-ulist
-  color #191919
+  color $color-primary
   font-family 'SegoeUI'
   font-size 14px
+  line-height 18px
   list-style-position inside
   list-style-image url('../images/bullet_green.png')
-  margin-bottom 5px
+  margin-bottom 10px
   &__item
     margin-bottom 3px
 
 .b-table
-  border 1px solid #479fcd
+  border 1px solid $color-additional1
   font-family 'SegoeUI'
   font-size 15px
   margin-top 35px
   margin-bottom 35px
   &__header
-    background #479fcd
-    border-left 1px solid #b3dcf1
-    border-right 1px solid #b3dcf1
-    color #fff
-    font-weight 700
-    padding 7px
+    background $color-additional1
+    border-left 1px solid $color-additional1-light
+    border-right 1px solid $color-additional1-light
+    color $color-primary-invert
+    font-weight $font-semibold
+    padding 10px 7px
     text-align center
     &:first-child
-      border-left 1px solid #479fcd
+      border-left 1px solid $color-additional1
     &:last-child
-      border-right 1px solid #479fcd
+      border-right 1px solid $color-additional1
   &__cell
-    border 1px solid #479fcd
-    min-width 153px
-    padding 7px
+    border 1px solid $color-additional1
+    min-width 133px
+    padding 6px 7px 7px
     text-align center
     &_mode_highlight
-      background #eaf8ff
+      background $color-additional1-highlight
       text-align left
 
 .b-quote
   background #f2ebbe url('../images/quote.png') no-repeat 13px 14px
-  color #191919
+  color $color-primary
   font-family 'SegoeUI'
   font-size 14px
   font-style italic
+  line-height 19px
   margin-top 40px
-  padding 23px 23px 23px 58px
+  padding 18px 23px 26px 58px
 
 .b-main
   background #f0f0f0
@@ -90,7 +106,7 @@ strong
   height 100%
   margin 0 auto - $footer-height
   &__wrapper
-    background #fff
+    background $color-primary-invert
     margin 0 auto
     width 1060px
   &__footer
@@ -110,22 +126,22 @@ strong
       float left
       margin-right 11px
     &-name
-      color #e35828
+      color $color-additional3
       font-family 'SegoeUI'
       font-size 31px
-      font-weight 700
+      font-weight $font-semibold
       margin-top 7px
       text-transform uppercase
     &-city
-      color #191919
+      color $color-primary
       font-size 36px
-      font-weight 900
+      font-weight $font-bold
     &-domain
       left -5px
       position relative
       top 0
     &-slogan
-      color #191919
+      color $color-primary
       font-family 'SegoeUI'
       font-size 15px
       margin-top 7px
@@ -143,39 +159,39 @@ strong
       font-size 10px
       text-transform uppercase
       &-phone
-        color #e35828
+        color $color-additional3
         font-size 23px
         font-family 'SegoeUI'
-        font-weight 900
+        font-weight $font-bold
         position relative
         top 1px
     &-8800
-      color #191919
+      color $color-primary
       font-family 'SegoeUI'
       font-size 23px
-      font-weight 900
+      font-weight $font-bold
       margin-top 8px
 
 .b-navi
   padding 4px 30px 0
   &__order
-    background #88b442
+    background $color-additional2
     border none
-    color #fff
+    color $color-primary-invert
     cursor pointer
     float right
     font-family 'SegoeUI'
     font-size 17px
-    font-weight 700
+    font-weight $font-semibold
     line-height 46px
     padding-bottom 0
     padding-top 0
     width 22%
   &__menu
-    background #479fcd
+    background $color-additional1
     width 77%
     &-link
-      color #fff
+      color $color-primary-invert
       display block
       float left
       font-family 'SegoeUI'
@@ -185,22 +201,22 @@ strong
       padding 0 20px
       text-decoration none
       &_state_active
-        background #317ea6
+        background $color-additional4
       &:hover
-        background #317ea6
+        background $color-additional4
         text-decoration none
 
 .b-services
   padding 30px 30px 0
   &__title
     border-bottom 1px solid #f0ae86
-    color #191919
+    color $color-primary
     font-family 'SegoeUI'
     font-size 25px
-    font-weight 700
+    font-weight $font-semibold
     margin-bottom 18px
     &-text
-      background #fff
+      background $color-primary-invert
       display inline-block
       padding-right 10px
       position relative
@@ -226,15 +242,15 @@ strong
     &_bg_05
       background url('../images/service_05.png') no-repeat 50% 15px
   &__link
-    color #317ea6
+    color $color-additional4
     font-family 'SegoeUI'
     font-size 15px
     line-height 18px
     &:hover
-      color #e35828
+      color $color-additional3
       text-decoration none
   &__text
-    color #191919
+    color $color-primary
     font-family 'SegoeUI'
     font-size 14px
     line-height 17px
@@ -244,13 +260,13 @@ strong
   padding 22px 30px 3px
   &__title
     border-bottom 1px solid #82c7ec
-    color #191919
+    color $color-primary
     font-family 'SegoeUI'
     font-size 25px
-    font-weight 700
+    font-weight $font-semibold
     margin-bottom 0
     &-text
-      background #fff
+      background $color-primary-invert
       display inline-block
       padding-right 10px
       position relative
@@ -265,10 +281,10 @@ strong
     &:first-child
       margin-left 0
     &-author
-      color #618626
+      color $color-additional2-highlight
       font-family 'SegoeUI'
       font-size 14px
-      font-weight 900
+      font-weight $font-bold
     &-type
       color #505050
       font-family 'SegoeUI'
@@ -291,7 +307,7 @@ strong
     margin-top 10px
     text-align right
     &-link
-      color #317ea6
+      color $color-additional4
       font-family 'SegoeUI'
       font-size 14px
       &:hover
@@ -301,13 +317,13 @@ strong
   padding 20px 30px 18px
   &__title
     border-bottom 1px solid #99cd47
-    color #191919
+    color $color-primary
     font-family 'SegoeUI'
     font-size 25px
-    font-weight 700
+    font-weight $font-semibold
     margin-bottom 0px
     &-text
-      background #fff
+      background $color-primary-invert
       display inline-block
       padding-right 10px
       position relative
@@ -330,10 +346,10 @@ strong
       padding-top 3px
       width 40px
     &-date
-      background #e35828
-      color #fff
+      background $color-additional3
+      color $color-primary-invert
       font-size 17px
-      font-weight 900
+      font-weight $font-bold
       line-height 14px
       padding 5px 0 6px
       text-align center
@@ -343,15 +359,15 @@ strong
     &-content
       margin-left 50px
     &-link
-      color #317ea6
+      color $color-additional4
       font-size 17px
-      font-weight 700
+      font-weight $font-semibold
       line-height 19px
       &:hover
-        color #e35828
+        color $color-additional3
         text-decoration none
     &-text
-      color #191919
+      color $color-primary
       font-size 13px
       line-height 17px
       margin-top 7px
@@ -361,19 +377,19 @@ strong
   padding 30px 30px 18px
   &__title
     border-bottom 1px solid #f0ae86
-    color #191919
+    color $color-primary
     font-family 'SegoeUI'
     font-size 25px
-    font-weight 700
+    font-weight $font-semibold
     margin-bottom 27px
     &-text
-      background #fff
+      background $color-primary-invert
       display inline-block
       padding-right 10px
       position relative
       top 3px
   &__text
-    color #191919
+    color $color-primary
     font-family 'SegoeUI'
     font-size 14px
     line-height 17px
@@ -430,15 +446,15 @@ strong
     right 37px
     top 29px
     &-title
-      color #317ea6
+      color $color-additional4
       font-family 'SegoeUI'
       font-size 40px
-      font-weight 900
+      font-weight $font-bold
     &-subtitle
-      color #191919
+      color $color-primary
       font-family 'SegoeUI'
       font-size 15px
-      font-weight 900
+      font-weight $font-bold
       margin-top 12px
     &-list
       font-family 'SegoeUI'
@@ -448,7 +464,7 @@ strong
         float left
         line-height 26px
       &-value
-        color #191919
+        color $color-primary
         line-height 21px
         margin-left 147px
         margin-top 3px
@@ -462,34 +478,34 @@ strong
       color #e91717
       font-size 22px
     &-button
-      background #88b442
+      background $color-additional2
       border none
       border-radius 3px
-      color #fff
+      color $color-primary-invert
       cursor pointer
       font-family 'SegoeUI'
       font-size 21px
-      font-weight 900
+      font-weight $font-bold
       line-height 37px
       margin-left 38px
       margin-top 21px
       padding 0 41px
 
 .b-order
-  background #479fcd
+  background $color-additional1
   margin 0 auto 40px
   padding 23px
   width 604px
   &__select
-    background #fff url('../images/arrow_down.png') no-repeat 95% 50%
-    border 1px solid #fff
+    background $color-primary-invert url('../images/arrow_down.png') no-repeat 95% 50%
+    border 1px solid $color-primary-invert
     border-radius 3px
     cursor pointer
     display inline-block
     height 35px
     line-height 35px
     margin-left 20px
-    margin-bottom 20px
+    margin-bottom 16px
     overflow hidden
     width 287px
     &:first-child
@@ -511,24 +527,23 @@ strong
   &__input
     border none
     border-radius 3px
-    box-sizing padding-box
     color #373737
     font-family 'SegoeUI'
     font-size 16px
     height 35px
     line-height 35px
     padding 0 11px
-    width 185px
+    width 165px
   &__button
-    background #e35828
+    background $color-additional3
     border none
     border-radius 3px
-    color #fff
+    color $color-primary-invert
     cursor pointer
     display block
     font-family 'SegoeUI'
     font-size 21px
-    font-weight 900
+    font-weight $font-bold
     height 37px
     line-height 37px
     margin 26px auto 0
@@ -536,7 +551,7 @@ strong
 
 .b-footer
   background #759345
-  color #fff
+  color $color-primary-invert
   height $footer-height
   overflow-y hidden
   &__wrapper
@@ -555,11 +570,11 @@ strong
       text-transform uppercase
       &-city
         display inline-block
-        font-weight 900
+        font-weight $font-bold
         margin-left 6px
       &-domain
         display inline-block
-        font-weight 700
+        font-weight $font-semibold
         margin-left 5px
     &-description
       font-size 11px
@@ -577,8 +592,8 @@ strong
       float left
       padding 0 14px
     &-link
-      border-bottom 1px solid #fff
-      color #fff
+      border-bottom 1px solid $color-primary-invert
+      color $color-primary-invert
       text-decoration none
       &:hover
         border none

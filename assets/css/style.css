@@ -206,9 +206,10 @@ strong {
   color: #191919;
   font-family: 'SegoeUI';
   font-size: 14px;
+  line-height: 18px;
   list-style-position: inside;
   list-style-type: decimal;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .b-olist__item {
@@ -219,9 +220,10 @@ strong {
   color: #191919;
   font-family: 'SegoeUI';
   font-size: 14px;
+  line-height: 18px;
   list-style-position: inside;
   list-style-image: url("../images/bullet_green.png");
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .b-ulist__item {
@@ -242,7 +244,7 @@ strong {
   border-right: 1px solid #b3dcf1;
   color: #fff;
   font-weight: 700;
-  padding: 7px;
+  padding: 10px 7px;
   text-align: center;
 }
 
@@ -256,8 +258,8 @@ strong {
 
 .b-table__cell {
   border: 1px solid #479fcd;
-  min-width: 153px;
-  padding: 7px;
+  min-width: 133px;
+  padding: 6px 7px 7px;
   text-align: center;
 }
 
@@ -272,8 +274,9 @@ strong {
   font-family: 'SegoeUI';
   font-size: 14px;
   font-style: italic;
+  line-height: 19px;
   margin-top: 40px;
-  padding: 23px 23px 23px 58px;
+  padding: 18px 23px 26px 58px;
 }
 
 .b-main {
@@ -843,7 +846,7 @@ strong {
   height: 35px;
   line-height: 35px;
   margin-left: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   overflow: hidden;
   width: 287px;
 }
@@ -875,14 +878,13 @@ strong {
 .b-order__input {
   border: none;
   border-radius: 3px;
-  box-sizing: padding-box;
   color: #373737;
   font-family: 'SegoeUI';
   font-size: 16px;
   height: 35px;
   line-height: 35px;
   padding: 0 11px;
-  width: 185px;
+  width: 165px;
 }
 
 .b-order__button {
