@@ -27,7 +27,7 @@
         </div>
       </div>
       <div class="b-navi i-clearfix">
-        <button class="b-navi__order">Сделать онлайн-заказ</button>
+        <button class="b-navi__order" id="order">Сделать онлайн-заказ</button>
         <nav class="b-navi__menu i-clearfix">
           <a class="b-navi__menu-link b-navi__menu-link_state_active" href="#">Главная</a>
           <a class="b-navi__menu-link" href="#">Прайс</a>
@@ -183,5 +183,41 @@
     </div>
   </div>
 </div>
+<div style="display: none;" id="order_popup">
+  <form class="b-order" name="order" method="post">
+    <div class="b-order__select">
+      <select name="service">
+        <option>Вид услуги</option>
+        <option>Грузовые перевозки</option>
+        <option>Пассажирские перевозки</option>
+        <option>Услуги грузчиков</option>
+        <option>Слесарные работы</option>
+        <option>Электромонтажные работы</option>
+      </select>
+    </div>
+    <div class="b-order__select">
+      <select name="service_additional">
+        <option>Дополнительно</option>
+        <option>Грузовые перевозки</option>
+        <option>Пассажирские перевозки</option>
+        <option>Услуги грузчиков</option>
+        <option>Слесарные работы</option>
+        <option>Электромонтажные работы</option>
+      </select>
+    </div>
+    <label class="b-order__field">
+      <input class="b-order__input" type="text" name="name" placeholder="Имя" />
+    </label>
+    <label class="b-order__field">
+      <input class="b-order__input" type="text" name="phone" placeholder="Телефон" />
+    </label>
+    <label class="b-order__field">
+      <input class="b-order__input" type="date" name="date" placeholder="Дата" />
+    </label>
+    <button class="b-order__button" type="submit">Заказать</button>
+  </form>
+</div>
+<script src="assets/js/jquery-1.11.3.min.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
