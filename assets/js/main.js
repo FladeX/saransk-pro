@@ -46,7 +46,7 @@ $(document).ready(function() {
   $('#order').on('click', function() {
     $('#order_popup').show();
     $('#order_popup').css({
-      'position': 'absolute',
+      'position': 'fixed',
       'top': 0,
       'right': 0,
       'bottom': 0,
